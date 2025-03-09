@@ -1,0 +1,161 @@
+/* -------------------------------------- INCREDIBOX COPYRIGHT SO FAR SO GOOD © 2011-2012 */
+/* -------------------------------------- ALL RIGHTS RESERVED WWW.SOFARSOGOOD.FR */
+a{
+	outline:none;
+	text-decoration: none;
+}
+a.bouton, div.bouton{
+	display:-moz-inline-box;
+	display:inline-block;
+	padding:3px 13px 3px 13px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color: #999;
+	font-family: Tahoma, sans-Serif;
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+	color:#FEFEFE;
+	white-space: nowrap;
+	float: left;
+}
+a.btRight, div.btRight{
+	float: right;
+	margin-left:5px;
+}
+a.bouton:hover{
+	color:#FFF;
+	background-color: #333;
+}
+a.btIcon{
+	width:7px;
+	background-repeat: no-repeat;
+	background-position: 9px 5px;
+}
+/* mettre un if IE BT Fleche gauche droite */
+a.btTexte{
+	padding-left:28px;
+	background-repeat: no-repeat;
+	background-position: 8px 5px;
+}
+a.btRouge{
+	background-color: #DD0000;
+}
+a.btRouge:hover{
+	background-color: #FF0000;
+}
+/* -------------------------------------- BOUTON SELECT */
+/* -------------------------------------- BOUTON SELECT */
+#pa-goodies .boxDlList {
+	position: absolute;
+	margin-top:1px;
+}
+*html #pa-goodies .boxDlList { /* IE7 bug margin-top */
+	margin-top:-9px;
+}
+#pa-goodies .boxDlList li {
+	display: block;
+	cursor: pointer;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding:5px 10px 5px 10px;
+    width: 96px;
+	text-align: center;
+    background-color: #BBB;
+    margin-bottom: 1px;
+}
+*html #pa-goodies .boxDlList li{ /* IE fix padding */
+	width:116px;
+}
+#pa-goodies .boxDlList li:hover {
+    background-color: #555;
+}
+#pa-goodies .boxDlList ul {
+    list-style: none outside none;
+}
+#btReso{
+	width:75px;
+}
+* html #btReso{ /* IE fix padding */
+	width:116px;
+}
+/* -------------------------------------- BOUTON IMAGE */
+/* -------------------------------------- BOUTON IMAGE */
+div.btSoon{
+	background-color: #CCC;
+}
+.btLien{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-lien.gif");
+}
+.btDownload{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-download.gif");
+}
+.btMail{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-mail.gif");
+}
+.btNewsletter{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-newsletter.gif");
+}
+.btList{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-list.gif");
+}
+.btFlecheR{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-flecheR.gif");
+}
+.btFlecheL{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-flecheL.gif");
+}
+/* -------------------------------------- BOUTON ICONE 20X15 */
+.btIcon{
+	cursor:pointer;
+	display:block;
+	float:left;
+	width:25px;
+	height:20px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	background-color: #CCC;
+	margin-right:10px;
+}
+.btVoir{
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/ic-oeil.png");
+}
+.btFacebook{
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/ic-facebook.png");
+}
+.btTwitter{
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/ic-twitter.png");
+}
+.btLink{
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/ic-lien.png");
+}
+a.btBoutique{ 
+	background-image: url("/web/20121212135530im_/http://www.incredibox.com/image/icon/bt-shop.png");
+	background-position: 10px 7px;
+}
+
+/*
+     FILE ARCHIVED ON 13:55:30 Dec 12, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:28:31 Mar 09, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.798
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 14.738
+  LoadShardBlock: 181.943 (3)
+  PetaboxLoader3.datanode: 136.41 (4)
+  PetaboxLoader3.resolve: 140.542 (2)
+  load_resource: 212.859
+*/

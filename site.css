@@ -1,0 +1,1024 @@
+/* -------------------------------------- INCREDIBOX COPYRIGHT SO FAR SO GOOD © 2011-2012 */
+/* -------------------------------------- ALL RIGHTS RESERVED WWW.SOFARSOGOOD.FR */
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+html, body {
+	height: 100%;
+}
+body{
+	font-family: Georgia, Times, serif;
+	font-size:100%;
+	background-color: #FFFFFF;
+	background-image : url("/web/20121212135521im_/http://www.incredibox.com/image/icon/preload.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#alert{
+ 	position: absolute;
+ 	top:0px;
+ 	left:0px;
+ 	color:#000000;
+ 	padding:10px;
+ 	width:250px;c
+ 	background-color: #FFF;
+ 	border:1px solid #555;
+ 	display: none;
+ 	z-index:1;
+}
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+}
+#footer, .push{
+	clear: both;	
+}
+#menuHeader{
+	width:100%;
+	text-align: center; /* fix IE margin auto */
+	background-image:url("/web/20121212135521im_/http://www.incredibox.com/image/icon/fd-degrade1.jpg");
+	background-color:#555;
+}
+#header{
+	width:100%;
+	background-color: #000;
+	text-align: center; /* fix IE margin auto */
+}
+#main {
+	padding:0;
+	margin:0;
+}  
+#footer {
+	width:100%;
+	height: 50px;
+	text-align: center; /* fix IE margin auto */
+	background-color: #000;
+} 
+object, a{
+	outline:none;
+	text-decoration: none;
+}
+img {
+	border:none 0px;
+	font-size:12px;
+	color:#000;
+}
+.clear{
+	clear:both;
+}
+.lienPage{ /* si on peut pas ecouter le changement URL, on change tous les href de cette classe */ }
+/* -------------------------------------- TOP */
+/* -------------------------------------- TOP */
+#menuHeaderMiddle{
+	position:relative;
+	text-align: left; /* IE */
+	margin: 0 auto;
+	padding:0px;
+	width:1004px;
+	height:35px;
+	border-left:1px solid #333;
+}
+#divMenuHeader{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+#menuHeaderMiddle a{
+	display:block;
+	padding:10px 20px 7px 20px;
+	height:18px;
+	float:left;
+	border-right:1px solid #333;
+	filter:alpha(opacity=65);
+	-moz-opacity:.65;
+	opacity:.65;
+	cursor:pointer;
+}
+#menuHeaderMiddle span{
+	color:#FFF;
+	display: block;
+	padding:0px 0px 2px 20px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+#menuHeaderMiddle span#btApp{
+	background-image:url("/web/20121212135521im_/http://www.incredibox.com/image/icon/bt-app.png");
+}
+#menuHeaderMiddle span#btShare{
+	background-image:url("/web/20121212135521im_/http://www.incredibox.com/image/icon/bt-share.png");
+}
+#menuHeaderMiddle span#btGoodies{
+	background-image:url("/web/20121212135521im_/http://www.incredibox.com/image/icon/bt-goodies.png");
+}
+#menuHeaderMiddle span#btShop{
+	background-image:url("/web/20121212135521im_/http://www.incredibox.com/image/icon/bt-shop.png");
+}
+#menuHeaderMiddle span#btTop50{
+	background-image:url("/web/20121212135521im_/http://www.incredibox.com/image/icon/bt-top-50.png");
+}
+#headerMiddle{
+	position:relative;
+	text-align: left; /* IE */
+	margin: 0 auto;
+	padding:0px;
+	width:1004px;
+	height:110px;
+}
+#advertiseBanner{
+	position:absolute;
+	padding:0px;
+	left:0px;	
+	margin-top:10px;
+	height:90px;
+	width:265px;
+	background-color: #555;
+	cursor:pointer;
+	overflow:hidden;
+	color:#DDD;
+	font-size:12px;
+}
+#advertiseGoogle{
+	position:absolute;
+	padding:0px;
+	right:0px;	
+	margin-top:10px;
+	height:90px;
+	width:728px;
+	background-color: #555;
+	cursor:pointer;
+	overflow:hidden;
+	color:#DDD;
+	font-size:12px;
+}
+#zone{
+	position:absolute;
+	left:10px;	
+	margin-top:5px;
+	height:90px;
+	width:270px;
+	background-color: #FF0000;
+
+}
+#menuNew{
+	position: absolute;
+	display:block;
+	top:7px;
+	height:57px;
+	width:240px;
+	color:#999;
+}
+#menuNew div{
+	position: absolute;
+	left:110px;
+	top:12px;
+	padding-left:15px;
+	width:141px;
+	height:30px;
+	border-left:1px solid #444;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#menuNew:hover{
+	color:#FFF;
+}
+#menuTop{
+	position: relative;
+	float:left;
+	width:500px;
+	height:100px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#999;
+}
+a.lienMenu{
+	display: block;
+	margin-top:2px;
+	color: #999;
+}
+a.lien{
+	color:#000;
+	text-decoration : underline;
+}
+.logoPartner{
+	text-decoration: none;
+	color:#555;
+	margin-right:10px;
+	float:left;
+}
+/* -------------------------------------- FLASH */
+/* -------------------------------------- FLASH */
+#fakeContent{
+	padding:0px;
+	height:610px;/* flashHeight+footerHeight */
+}
+#boxFlash{
+	position:absolute;
+	overflow: hidden;
+	top:185px;
+	left:0px;
+}
+.flashAfficher{
+	width:100%;
+	height:auto;
+	min-height:560px;
+	bottom:50px;
+}
+.flashMasquer{
+	width:1px;
+	height:1px;
+}
+#flashContent{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-280px;
+	margin-left:-550px;
+	width:1100px;
+	height:560px;
+	/* IE 8 */	
+	top:40px\0;
+	margin-top:0px\0;
+}
+#needFlash{
+	position:absolute;
+	left:50%;
+	top:40px;
+	margin-left:-300px;
+	width:600px;
+	height:500px;
+	display: none;
+}
+#boxPoloHead{
+	width:120px;
+	height:auto;
+	float:left;
+}
+#boxTexteFl{
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	text-align:left;
+	color:#555;
+	font-size:13px;
+}
+/* -------------------------------------- MIDDLE */
+/* -------------------------------------- MIDDLE */
+.bandeauShare{
+	display: block;
+	width:100%;
+	height:40px;
+	background-color: #DDD;
+	background-image: url("/web/20121212135521im_/http://www.incredibox.com/image/icon/fd-bandeau.jpg");
+}
+.bandeauShareMiddle{
+	display: block;
+	margin:0 auto auto;
+	width:1004px;
+	font-size:11px;
+	text-align : left; /* IE */
+}
+.addTitre{
+	display: block;
+	margin-top:7px;
+	margin-right:7px;
+	padding:7px 0px 5px 10px;
+	height:15px;
+	float:left;
+	/* border-right:1px solid #999; */
+	border-left:1px solid #999;
+	color:#666;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	font-size:12px;
+}
+.addthis_counter{
+	margin-top:5px !important;
+}
+.addthis_bubble_style a{
+	font-size:10px !important;
+}
+.addthis_button_google_plusone{
+	margin-top:3px !important;
+}
+.addthisBox{
+	margin-top:11px;
+}
+.shareBox{
+	display:block;
+	float: left;
+	height:40px;
+}
+#shareCenter{
+	margin-left:10px;
+	width:300px;
+}
+#shareRight{
+	float:right;
+	width:370px;
+}
+.addthisRight{
+	float:right;
+}
+.page{
+	display: none;
+	text-align: center; /* fix IE margin auto */
+}
+.pageMiddle{
+	display: block;
+	margin:0 auto auto;
+	padding:0px 0px 70px 0px;
+	width:1004px;
+	font-size:13px;
+	text-align : left; /* IE */
+}
+.pageMiddleiPhone{
+	width:600px;
+	font-size:16px;
+}
+/* -------------------------------------- FOOTER */
+/* -------------------------------------- FOOTER */
+#footer{
+	background-color: #000;
+}
+#footerMiddle{
+	margin:0 auto auto;
+	position: relative;
+	padding: 0px;
+	height:50px;
+	width:1004px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#999;
+	text-align: left; /* IE*/
+}
+.boxFooter{
+	float:left;
+	margin-top:10px;
+	padding-left:30px;
+	padding-right:30px;
+	height:30px;
+	border-right:1px solid #444;
+}
+#copyright{
+	padding-left:0px;
+}
+.boxLogoFooter{
+	float:right;
+	margin-top:10px;
+	padding:0px;
+	width:auto;
+	height:30px;
+	display:block;
+}
+.boxLogoFooter 	a{
+	text-decoration: none;
+	color:#999;
+}
+#logo1Footer{
+	padding-left:30px;
+}
+#logo1Footer span{
+	display:block;
+	float:left;
+	margin-top:12px;
+	margin-right:9px;
+}
+#logo1Footer img{
+	margin-top:2px;
+	display:block;
+	float:left;
+}
+#logo2Footer{
+	padding-right:30px;
+	border-right:1px solid #444;
+}
+#logo2Footer span{
+	display:block;
+	float:left;
+	margin-top:12px;
+	margin-right:9px;
+}
+#logo2Footer img{
+	margin-top:2px;
+	display:block;
+	float:left;
+}
+a.lienFooter{
+	color: #999;
+}
+a.lienFooter:hover {
+	color: #FFFFFF;
+}
+#langueLock{
+	color: #FFF;
+}
+/* -------------------------------------- ENTETE PAGE */
+/* -------------------------------------- ENTETE PAGE */
+.bandeau{
+	display: block;
+	width:100%;
+	background-color: #DDD;
+	background-image: url("/web/20121212135521im_/http://www.incredibox.com/image/icon/fd-bandeau.jpg");
+	text-align: center; /* fix IE margin auto */
+}
+.bandeauMiddle{
+	margin:0 auto auto;
+	position: relative;
+	padding:0px 10px 0px 10px;
+	width:1004px;
+	height: 90px;
+	text-align : left; /* IE */
+}
+.bandeauMiddleiPhone{
+	width:600px;
+}
+.picto{
+	position: absolute;
+	display: block;
+	bottom:10px;
+}
+.picto img{
+	width:60px;
+}
+.sepEntete{
+	position: absolute;
+	display: block;
+	left:100px;
+	bottom:13px;
+	width:1px;
+	height:60px;
+	background-color: #999;
+	border-right: 1px solid #CCC;
+}
+/* -------------------------------------- CORPS PAGE */
+/* -------------------------------------- CORPS PAGE */
+.col1{
+	float:left;
+	width:295px;
+	min-height:10px;
+}
+* html .col1{
+	overflow: hidden; /* IE fix bug depassement de mots... Bravo IE t'es trop baleze! */
+}
+.colDouble{	
+	float:left;
+	width:650px;
+}
+.colTexte{
+	margin:0;
+	padding:0;
+	border:0;
+	width:295px;
+	display: block;
+	font-size:13px; 
+	font-style:italic; 
+	color:#555;
+}
+.colTexteGros{
+	display: block;
+	font-size:16px; 
+	font-style:italic; 
+	color:#555;
+}
+.colTexteSousPicto{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.colTextDiapo{
+	margin-bottom: 30px;
+}
+.petitTexte{
+	font-style:italic;
+	font-weight:normal;
+	font-size:11px;
+	color:#999;
+}
+.marge{
+	float:left;
+	width:59px;
+	height:60px;
+}
+.legendeImg{
+	font-size:11px;
+	font-style:italic;
+	color:#555;
+}
+/* ------------------------------ BLOC STATS */
+/* ------------------------------ BLOC STATS */
+.blocStat{
+	position: relative;
+	display: block;
+	width:295px;
+	height:70px;
+/* 	border: 1px solid #000; */
+}
+img.logoStat{
+	position: absolute;
+	display: block;
+	width:40px;
+	height:60px;
+}
+.maskStat{
+	position: absolute;
+	overflow: hidden;
+	width:235px;/* a donner a JS pour creer le width sur boiteTxtStat */
+	left:60px;
+	height:70px;
+/* 	border: 1px solid #000; */
+}
+.boiteTxtStat{
+	position:absolute;
+	display:inline;
+	height:70px;
+	overflow: hidden;
+/* 	background: aqua; */
+}
+.txtStat{
+	display:block;
+	width:231px;/* doit faire comme .maskStat.width -4px de padding-left */
+	padding-left:4px;
+	height:70px;
+	float:left;
+}
+* html .txtStat{ /* IE fix padding */
+	width:235px;
+}
+.txt1Stat{
+	display:block;
+	height:40px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+}
+.txt2Stat{
+	display:block;
+	font-size: 18px;
+	height:30px;
+	font-style: italic;
+}
+.boxPie{
+	position: relative;
+	width:295px;
+	height:295px;
+}
+.boxPie img{
+	position: absolute;
+	display: block;
+	top:0px;
+	left:0px;
+	width:295px;
+	height:290px;
+}
+.blocPie{
+	position:absolute;
+	display: block;
+	text-align:center;
+}
+.blocPie .txtBlocPie{
+	display: block;
+	font-family: Tahoma, Helvetica, sans-serif;
+	color:#333;
+	font-size:11px;
+}
+.blocPie .pctBlocPie{
+	display: block;
+	color:#555;
+	font-size:12px;
+	font-style:italic;
+	white-space : nowrap;
+}
+.boxPieDetail{
+	position: absolute;
+	display: block;
+	top:295px;
+	left:0px;
+	width:295px;
+	height:295px;
+	background-color: #FFFFFF;
+}
+.boxPieDetail table, .boxPieDetail tr, .boxPieDetail td{
+	/* border:1px solid #FFF; */
+}
+table{
+	font-family: Tahoma, Helvetica, serif;
+	border-collapse:collapse;
+	background-color: #EEE;
+	margin-bottom:5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.boxPieDetail tr{
+	height: 27px;
+}
+.boxPieDetail .trN{
+}
+.boxPieDetail .trG{
+	background-color: #DDD;
+}
+.boxPieDetail .td1{
+	width:40px;
+	text-align:center;
+	font-size:11px;
+}
+.boxPieDetail .td2{
+	padding-left:10px;
+	width:130px;
+	text-align:left;
+	font-size:12px;
+}
+.boxPieDetail .td3{
+	width:115px;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	text-align:center;
+	font-size:12px;
+}
+.boxPieDetail #tdB1{
+	-webkit-border-radius: 0px 0px 0px 10px;
+	-moz-border-radius:  0px 0px 0px 10px;
+}
+.boxPieDetail #tdB2{
+	-webkit-border-radius: 0px 0px 10px 0px;
+	-moz-border-radius:  0px 0px 10px 0px;
+}
+/* ------------------------------ BLOC TARIFS */
+.blocTarif{
+	position:relative;
+	display: block;
+	width:295px;
+	height:100px;
+}
+.blocTarif a{
+	display: block;
+	position:absolute;
+	top:50px;
+}
+#boutonTarif1{
+	left:167px;
+}
+#boutonTarif2{
+	left:190px;
+}
+#boutonTarif3{
+	left:190px;
+}
+#boutonTarif1-en{
+	left:180px;
+}
+#boutonTarif2-en{
+	left:194px;
+}
+#boutonTarif3-en{
+	left:193px;
+}
+/* ------------------------------ TRAIT DE SEPARATION */
+.blocTrait{
+	display:block;
+	padding:0;
+	margin-top:30px;
+	margin-bottom:30px;
+	width:100%;
+	height:20px;
+	border-bottom:1px solid #999;
+}
+.blocTraitInvisible{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom:none;
+}
+.blocTraitShare{
+	margin-top:60px;
+	margin-bottom:10px;
+	border-bottom:1px solid #DDD;
+}
+.blocTraitDiapo{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #DDD;
+}
+/* -------------------------------------- TEXTE */
+h1{
+	margin:0;
+	padding:0;
+	position: absolute;
+	display: block;
+	bottom:15px;
+	left:130px;
+	height:60px;
+	line-height: 32px;
+	font-size: 27px;
+	font-style: italic;
+	font-weight: normal;
+	color:#333;
+}
+h2{
+	position:absolute;
+	display:block;
+	width:auto;
+	height:20px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	text-transform: uppercase;
+	color:#333;
+	border-bottom:3px solid #333;
+}
+h3{
+	display:block;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+span.maj{
+	text-transform: uppercase;
+}
+span.texte{
+	display:block;
+	font-size:14px; 
+	font-style:italic; 
+	color:#555;
+}
+span.texteGros{
+	display:block;
+	line-height: 20px;
+	font-size:18px; 
+	font-style:italic; 
+	color:#333;
+}
+span.mentionsLegales{
+	display:block;
+	padding-bottom:20px;
+	font-size:12px; 
+	font-style:normal; 
+	color:#333;
+}
+.separation{
+	display:block;
+	width:100%;
+	height: 0px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #FFF;
+	margin-top:9px;
+	margin-bottom:10px;
+}
+input{
+	font-family: Georgia, Times, serif;
+	font-size: 12px;
+	font-style: italic;
+}
+input:focus {
+    outline: none;
+}
+.textField{
+	padding-top:0;
+	padding-left:10px;
+	padding-right:10px;
+	width:275px;
+	height:30px;
+	margin-bottom: 10px;
+    color:#777;
+    border:2px solid #FFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CCC),to(#EEE));
+    background-image: -moz-linear-gradient(top,#CCC, #EEE);
+    background-color:#DDDDDD;
+}
+.textFieldIphone{
+	font-size:25px;
+	width:476px;
+	height:60px;
+}
+.textFieldWarning{
+	border:2px solid #999;
+}
+* html .textField{ /* IE text input */
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	width:295px;
+}
+.boxRapportTexte{
+	position: relative;
+	float:left;
+	width:190px;
+	height: auto;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+.rapportTexte{
+	font-family: Georgia, Times, serif;
+	font-style:italic;
+	font-size: 11px;
+	min-height:50px;
+}
+/* -------------------------------------- PAGE PARTAGER */
+/* -------------------------------------- PAGE PARTAGER */
+.blocRS{
+	display:block;
+	height:140px;
+}
+.txtBlocRS{
+	display: block;
+	float:left;
+	font-style: italic;
+	font-size: 13px;
+	color:#999;
+}
+.colPicto{
+	display: block;
+	width:70px;
+	height:70px;	
+	float:left;
+}
+.colTitre{
+	display: block;
+	margin-left:30px;
+	float:left;
+	font-size: 18px;
+	font-style: italic;
+	color:#000;
+}
+/* -------------------------------------- PAGE GOODIES */
+/* -------------------------------------- PAGE GOODIES */
+.boxDiapo{
+	display: block;
+	margin-top:7px;
+	width:650px;
+	height: 600px;
+}
+.headDiapo{
+	width:650px;
+	height:50px;
+}
+.bodyDiapo{
+	position:relative;
+	width:648px;
+	height:348px;
+	border: 1px solid #DDD;
+	background-color: #555;
+	overflow: hidden;
+}
+.boxImgDiapo{
+	position: absolute;
+	width:5000px;
+}
+.imgDiapo{
+	width:648px;
+	height:348px;
+	float:left;
+}
+.footerDiapo{
+	padding-top:10px;
+	width:650px;
+	
+}
+.blocInfoDiapo{
+	display: block;
+	width:400px;
+	float:left;
+}
+.blocNavDiapo{
+	display: block;
+	float:right;
+}
+.infoDiapoTitre{
+	display: block;
+	width:100%;
+	font-size:18px;
+	font-style:italic;
+	font-weight:normal;
+	color:#000;
+}
+#infoDiapoNumero{
+	padding: 5px 5px 0px 0px;
+	float: right;
+	font-size: 13px;
+	font-style: italic:
+	color:#555;
+}
+.titreDiapo{
+	display: none;
+}
+/* -------------------------------------- TXT */
+/* -------------------------------------- TXT */
+.txtIphone{
+	font-family: Georgia, Times, serif;
+	font-size: 16px;
+	font-style:italic;
+	color:#555;
+}
+/* -------------------------------------- TABLEAU TOP 50 */
+/* -------------------------------------- TABLEAU TOP 50 */
+#top50{
+	width:1004px;
+	background-color:#AAA;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	font-family: Georgia, Times, serif;
+	font-size:100%;
+	font-style: italic;
+	float:left;
+}
+#top50 #trTop{
+	color:#FFF;
+}
+#top50 tr{
+	height:40px;
+}
+#top50 td{
+	border-right:1px solid #DDD;
+	padding:0px 10px 0px 10px;
+}
+#top50 .tdLast{
+	border-right:none;
+}
+#top50 .tdNum, #top50 .tdVue, #top50 .tdVote, #top50 .tdLien, #top50 .tdDate{
+	text-align: center
+}
+#top50 .tdVote span{
+	padding-left:15px;
+	background-image: url("/web/20121212135521im_/http://www.incredibox.com/image/icon/ic-coeur.png");
+	background-repeat: no-repeat;
+	background-position:0px 2px;
+}
+
+#top50 .tdLien{
+	width:200px;
+}
+#top50 .divBtIcon{
+	margin-left:30px;
+}
+.tr1{
+	background-color:#EFEFEF;
+}
+.tr2{
+	background-color:#E5E5E5;
+}
+.onTr:hover{
+	cursor: pointer;
+	background-color: #FFF;
+}
+#bulle{
+	display:none;
+	position:absolute;
+	height:33px;
+	background-image: url("/web/20121212135521im_/http://www.incredibox.com/image/icon/ic-bullepointe.gif");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#bulle #bulleBlock{
+	display:block;
+	padding:7px 10px 7px 10px;
+	height:13px;
+	background-color: #555;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	box-shadow: 0px 1px 10px #555;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	color:#FFF;
+	white-space : nowrap;
+}
+/* -------------------------------------- IOS */
+/* -------------------------------------- IOS */
+.teteLogo{
+	position: absolute;
+	display: block;
+	bottom:5px;
+	height:80px;
+	right:0px;
+}
+.btShareLeft{	
+	margin-top:11px;
+	float:left;
+}
+
+/*
+     FILE ARCHIVED ON 13:55:21 Dec 12, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:28:31 Mar 09, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.628
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 19.292
+  LoadShardBlock: 124.724 (3)
+  PetaboxLoader3.datanode: 125.193 (4)
+  load_resource: 410.761
+  PetaboxLoader3.resolve: 357.737
+*/
